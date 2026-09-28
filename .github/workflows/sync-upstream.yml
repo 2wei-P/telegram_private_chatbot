@@ -2,7 +2,7 @@ name: Sync upstream
 
 on:
   schedule:
-    - cron: '0 21 * * *'        # 每周一 21:00 UTC 自动跑一次（约北京时间凌晨5点）
+    - cron: '0 21 * * *'        # 每天 21:00 UTC 自动跑一次（约北京时间凌晨5点）
   workflow_dispatch:            # 允许你在网页上手动点一下就跑
 
 jobs:
